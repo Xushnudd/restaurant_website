@@ -40,7 +40,8 @@
                 "email",
                 "number",
                 "your message"
-            ]
+            ],
+            "button": "Send inquires"
         },
         "contact": {
             "title": "contact us",
