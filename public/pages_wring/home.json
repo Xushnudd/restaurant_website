@@ -1,0 +1,80 @@
+{
+    "header": {
+        "links": [
+            "Home",
+            "Menu",
+            "Banquet Facelity",
+            "Gallery",
+            "Catering",
+            "contact us"
+        ],
+        "button": "Book Banquet"
+    },
+    "banner": {
+        "title": "Serving best resturent catring & bonquet services in new jercy",
+        "foot": "we are now serving authenitic indo-chines food",
+        "button": "curbside pickup"
+    },
+    "stories": {
+        "title": "Our stories",
+        "text": "At Guru Palace Indian Restaurant, we offer distinctive cuisine in an informal, friendly setting. Our restaurant enjoys a reputation for impeccable service, elegant Asian-style décor, and exquisite Indian food. Dining at our restaurant is like visiting India without leaving your hometown-an exciting blend of authentic Indian food, culture, and atmosphere awaits.",
+        "button": "know about us"
+    },
+    "package": {
+        "title": "CATTERING FOR ALL OCCASSION -GURU CATERS",
+        "button": "click here for packages"
+    },
+    "menu": {
+        "title": "Our menu",
+        "text": "Guru Palace is the ideal location for whatever the occasion; a casual get together, a special occasion or group dining. We are equipped with the very best equipments for outdoors and our massive production line enables us to produce food for up to 2000 people.",
+        "button": "check our full menu"
+    },
+    "shane_resturent": {
+        "button": "shane resturent"
+    },
+    "footer": {
+        "input": {
+            "title": "have a message?",
+            "message": [
+                "Name",
+                "email",
+                "number",
+                "your message"
+            ]
+        },
+        "contact": {
+            "title": "contact us",
+            "text": [
+                "2215 Us highway 1 south, North Brunswick, NJ 08902",
+                "Call us at",
+                "P: 732.398.9022",
+                "M: 917.518.4331",
+                "M: 347.784.9269",
+                "Fax: 732.658 2700",
+                "Email: guruplace@hotmail.com"
+            ]
+        },
+        "quick_lines": {
+            "title": "Quick lines",
+            "text": [
+                "Home",
+                "Menu",
+                "Banquet Facelity",
+                "Gallery",
+                "Catering",
+                "Events",
+                "contact us"
+            ]
+        },
+        "opration": {
+            "title": "Hours of opration",
+            "text": [
+                "6 days open",
+                "Monday, Wednesday-Friday: 11AM To 3PM",
+                "Monday, Wednesday-Friday: 5PM To 9:30PM",
+                "Saturday-Sunday: 10AM To 9:30PM",
+                "Tuesday: Closed"
+            ]
+        }
+    }
+}
