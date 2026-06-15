@@ -1,0 +1,63 @@
+{
+    "header": {
+        "links": [
+            "Home",
+            "Menu",
+            "Banquet Facelity",
+            "Gallery",
+            "Catering",
+            "contact us"
+        ],
+        "button": "Book Banquet"
+    },
+    "info": {
+        "text": "We held our daughter's first birthday at the Guru Palace banquet hall. We were more than happy with this experience. The staff were friendly, helpful, and efficient. The owner came to check on us several times during the party to ensure all our needs were met. All the guests lovthe food. We would highly recommend this restaurant for your future events.",
+        "name": "Priya"
+    },
+    "footer": {
+        "input": {
+            "title": "have a message?",
+            "message": [
+                "Name",
+                "email",
+                "number",
+                "your message"
+            ],
+            "button": "Send inquires"
+        },
+        "contact": {
+            "title": "contact us",
+            "text": [
+                "2215 Us highway 1 south, North Brunswick, NJ 08902",
+                "Call us at",
+                "P: 732.398.9022",
+                "M: 917.518.4331",
+                "M: 347.784.9269",
+                "Fax: 732.658 2700",
+                "Email: guruplace@hotmail.com"
+            ]
+        },
+        "quick_lines": {
+            "title": "Quick lines",
+            "text": [
+                "Home",
+                "Menu",
+                "Banquet Facelity",
+                "Gallery",
+                "Catering",
+                "Events",
+                "contact us"
+            ]
+        },
+        "opration": {
+            "title": "Hours of opration",
+            "text": [
+                "6 days open",
+                "Monday, Wednesday-Friday: 11AM To 3PM",
+                "Monday, Wednesday-Friday: 5PM To 9:30PM",
+                "Saturday-Sunday: 10AM To 9:30PM",
+                "Tuesday: Closed"
+            ]
+        }
+    }
+}

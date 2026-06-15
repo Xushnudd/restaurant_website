@@ -1,0 +1,209 @@
+{
+    "banner": "Catering",
+    "text": [
+        "We specializes in all types of catering. Ranging from the basic food pick up for at least 30 people to 100% custom catering. We are equipped with the very best equipments for outdoors and our massive production line enables us to produce food for up to 2000 people.",
+        "Our recipes are made from scratch using the freshest of local ingredients, organic when ever possible. Meals are simple, delicious and nutritious. We always find the best ingredients and make sure everyone’s food requirements are covered in our menu selections.",
+        "We have maintained the flexibility and level of personal service, which it prides itself on. We have entertained thousands of guests through evocative aromas and flavours of personalised hand manufactured cuisine all over. We present an extensive and innovative menu. that offers a truly unsurpassed range of authentic and innovative Indian vegetarian dishes, drawing from the cuisine’s of various regions of India. If you require a dish that is not listed on our menu, please do enquire and we will be happy to accommodate your requirements. We cater for clients with specific dietary requirements and can adapt our recipes to your individual tastes and preferences."
+    ],
+    "note": "Note: All catering package express,silver, gold and platinum for New Year eve 2022 minimum. 50 people",
+    "cards": [
+        {
+            "card": {
+                "title": "Express Package",
+                "info": [
+                    "2 Appetizers",
+                    "1 Veg Entrée",
+                    "1 Non-Veg Entrée",
+                    "Rice / Naan",
+                    "1 Dessert",
+                    "Min.50 people",
+                    "All pricing subject",
+                    "To change"
+                ]
+            },
+            "button": "$13 PER PERSON"
+        },
+        {
+            "card": {
+                "title": "Silver Package",
+                "info": [
+                    "3 Appetizers",
+                    "2 Vegetarian + 1 Non – Veg",
+                    "2 Veg Entrée",
+                    "1 Non-Veg Entrée",
+                    "Rice",
+                    "Naan",
+                    "1 Dessert",
+                    "Min.50 people",
+                    "All pricing subject",
+                    "to change"
+                ]
+            },
+            "button": "$20 PER PERSON"
+        },
+        {
+            "card": {
+                "title": "Gold Package",
+                "info": [
+                    "4 Appetizers",
+                    "2 Vegetarian + 2 Non – Veg",
+                    "2 Veg Entrée",
+                    "2 Non-Veg Entrée",
+                    "Pulao / Biryani",
+                    "Assorted Bread",
+                    "1 Dessert",
+                    "Min.50 people",
+                    "All pricing subject",
+                    "to change"
+                ]
+            },
+            "button": "$50 PER PERSON"
+        },
+        {
+            "card": {
+                "title": "Platinum Package",
+                "info": [
+                    "5 Appetizers",
+                    "3 Vegetarian + 2 Non – Veg",
+                    "3 Veg Entrée",
+                    "2 Non-Veg Entrée",
+                    "Pulao / Biryani",
+                    "Assorted Bread",
+                    "2 Dessert",
+                    "Min.50 people",
+                    "All pricing subject",
+                    "to change"
+                ]
+            },
+            "button": "$40 PER PERSON"
+        }
+    ],
+    "weeding_packages": {
+        "title": "WEEDING PACKAGES",
+        "caption": "All items to be selected from our Banquet Menu",
+        "packages": [
+            {
+                "title": "Standart Weeding",
+                "services": [
+                    {
+                        "title": "COCKTAIL HOUR",
+                        "list": [
+                            "One Vegetarian Appetizer( Butler Pass )",
+                            "One Non-Veg Appetizer ( Butler Pass )",
+                            "Two Vegetarian Appetizers ( Tabled )",
+                            "One Non-Veg Appetizer ( Tabled )"
+                        ]
+                    },
+                    {
+                        "title": "THE WEDDING BUFFET DINNER",
+                        "list": [
+                            "One Chicken Entree",
+                            "One Lamb or Goat Entree",
+                            "Two Vegetable Entree",
+                            "One Dal/ Lentil Entree",
+                            "One Choice of Rice",
+                            "Three Choices of Bread",
+                            "Salad Bar",
+                            "Raita",
+                            "Achar",
+                            "Papad"
+                        ]
+                    },
+                    {
+                        "title": "DESSERTS",
+                        "list": [
+                            "Choice of Two",
+                            "Desserts"
+                        ]
+                    },
+                    {
+                        "title": "EXTRAS",
+                        "list": [
+                            "Sales Tax /",
+                            "Catering Staff /",
+                            "Food Handlers"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "DELUX WEEDING"
+            },
+            {
+                "title": "GOLD PACKAGES"
+            },
+            {
+                "title": "OPTIONAL ITEMS"
+            }
+        ]
+    },
+    "trays": {
+        "title": "PARTY TRAYS TO GO",
+        "info": [
+            {
+                "title": [
+                    "Tray",
+                    "Veg",
+                    "Non-Veg",
+                    "Seafood",
+                    "Bread",
+                    "Rice"
+                ],
+                "packages": [
+                    {
+                        "tray_size": "Small Tray (10-12 people)",
+                        "veg": "$50",
+                        "non_veg": "$65",
+                        "seafood": "$75",
+                        "bread": "$30",
+                        "rice": "$30"
+                    },
+                    {
+                        "tray_size": "Medium Tray (20-25 people)",
+                        "veg": "$75",
+                        "non_veg": "$85",
+                        "seafood": "$90",
+                        "bread": "$40",
+                        "rice": "$35"
+                    },
+                    {
+                        "tray_size": "Semi Large Tray (30-35 people)",
+                        "veg": "$100",
+                        "non_veg": "$120",
+                        "seafood": "$160",
+                        "bread": "$70",
+                        "rice": "$50"
+                    },
+                    {
+                        "tray_size": "Large Tray (45-55 people)",
+                        "veg": "$120",
+                        "non_veg": "$160",
+                        "seafood": "$220",
+                        "bread": "$100",
+                        "rice": "$65"
+                    },
+                    {
+                        "tray_size": "Extra Large Tray (65-75 people)",
+                        "veg": "$160",
+                        "non_veg": "$200",
+                        "seafood": "$260",
+                        "bread": "$120",
+                        "rice": "$80"
+                    }
+                ]
+            }
+        ]
+    },
+    "appertizers": {
+        "title": "APPETIZERS",
+        "menu_sections": [
+            "BREAD",
+            "FRIED RICE & NOODLE",
+            "NON-VEGETARIAN",
+            "BIRYANI",
+            "DESSERTS",
+            "VEG- HORS D'OEUVRES",
+            "NON- VEG HORS D'OEUVRES"
+        ]
+    }
+}

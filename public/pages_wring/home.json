@@ -1,0 +1,24 @@
+{
+    "banner": {
+        "title": "Serving best resturent catring & bonquet services in new jercy",
+        "foot": "we are now serving authenitic indo-chines food",
+        "button": "curbside pickup"
+    },
+    "stories": {
+        "title": "Our stories",
+        "text": "At Guru Palace Indian Restaurant, we offer distinctive cuisine in an informal, friendly setting. Our restaurant enjoys a reputation for impeccable service, elegant Asian-style décor, and exquisite Indian food. Dining at our restaurant is like visiting India without leaving your hometown-an exciting blend of authentic Indian food, culture, and atmosphere awaits.",
+        "button": "know about us"
+    },
+    "package": {
+        "title": "CATTERING FOR ALL OCCASSION -GURU CATERS",
+        "button": "click here for packages"
+    },
+    "menu": {
+        "title": "Our menu",
+        "text": "Guru Palace is the ideal location for whatever the occasion; a casual get together, a special occasion or group dining. We are equipped with the very best equipments for outdoors and our massive production line enables us to produce food for up to 2000 people.",
+        "button": "check our full menu"
+    },
+    "shane_resturent": {
+        "button": "shane resturent"
+    }
+}
