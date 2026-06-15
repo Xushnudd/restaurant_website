@@ -78,8 +78,120 @@
             "button": "$40 PER PERSON"
         }
     ],
-    "wedding_packages": {
-        "title": "WEDDING PACKAGES",
-        "caption": "All items to be selected from our Banquet Menu"
+    "weeding_packages": {
+        "title": "WEEDING PACKAGES",
+        "caption": "All items to be selected from our Banquet Menu",
+        "packages": [
+            {
+                "title": "Standart Weeding",
+                "services": [
+                    {
+                        "title": "COCKTAIL HOUR",
+                        "list": [
+                            "One Vegetarian Appetizer( Butler Pass )",
+                            "One Non-Veg Appetizer ( Butler Pass )",
+                            "Two Vegetarian Appetizers ( Tabled )",
+                            "One Non-Veg Appetizer ( Tabled )"
+                        ]
+                    },
+                    {
+                        "title": "THE WEDDING BUFFET DINNER",
+                        "list": [
+                            "One Chicken Entree",
+                            "One Lamb or Goat Entree",
+                            "Two Vegetable Entree",
+                            "One Dal/ Lentil Entree",
+                            "One Choice of Rice",
+                            "Three Choices of Bread",
+                            "Salad Bar",
+                            "Raita",
+                            "Achar",
+                            "Papad"
+                        ]
+                    },
+                    {
+                        "title": "DESSERTS",
+                        "list": [
+                            "Choice of Two",
+                            "Desserts"
+                        ]
+                    },
+                    {
+                        "title": "EXTRAS",
+                        "list": [
+                            "Sales Tax /",
+                            "Catering Staff /",
+                            "Food Handlers"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "DELUX WEEDING"
+            },
+            {
+                "title": "GOLD PACKAGES"
+            },
+            {
+                "title": "OPTIONAL ITEMS"
+            }
+        ]
+    },
+    "trays": {
+        "title": "PARTY TRAYS TO GO",
+        "info": [
+            {
+                "title": [
+                    "Tray",
+                    "Veg",
+                    "Non-Veg",
+                    "Seafood",
+                    "Bread",
+                    "Rice"
+                ],
+                "packages": [
+                    {
+                        "tray_size": "Small Tray (10-12 people)",
+                        "veg": "$50",
+                        "non_veg": "$65",
+                        "seafood": "$75",
+                        "bread": "$30",
+                        "rice": "$30"
+                    },
+                    {
+                        "tray_size": "Medium Tray (20-25 people)",
+                        "veg": "$75",
+                        "non_veg": "$85",
+                        "seafood": "$90",
+                        "bread": "$40",
+                        "rice": "$35"
+                    },
+                    {
+                        "tray_size": "Semi Large Tray (30-35 people)",
+                        "veg": "$100",
+                        "non_veg": "$120",
+                        "seafood": "$160",
+                        "bread": "$70",
+                        "rice": "$50"
+                    },
+                    {
+                        "tray_size": "Large Tray (45-55 people)",
+                        "veg": "$120",
+                        "non_veg": "$160",
+                        "seafood": "$220",
+                        "bread": "$100",
+                        "rice": "$65"
+                    },
+                    {
+                        "tray_size": "Extra Large Tray (65-75 people)",
+                        "veg": "$160",
+                        "non_veg": "$200",
+                        "seafood": "$260",
+                        "bread": "$120",
+                        "rice": "$80"
+                    }
+                ]
+            }
+        ]
     }
 }
