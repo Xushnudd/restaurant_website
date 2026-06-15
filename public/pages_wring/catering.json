@@ -193,5 +193,17 @@
                 ]
             }
         ]
+    },
+    "appertizers": {
+        "title": "APPETIZERS",
+        "menu_sections": [
+            "BREAD",
+            "FRIED RICE & NOODLE",
+            "NON-VEGETARIAN",
+            "BIRYANI",
+            "DESSERTS",
+            "VEG- HORS D'OEUVRES",
+            "NON- VEG HORS D'OEUVRES"
+        ]
     }
 }
