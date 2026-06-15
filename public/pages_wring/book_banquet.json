@@ -1,0 +1,36 @@
+{
+  "form_title": "BOOK A BANQUET",
+  "fields": [
+    {
+      "label": "GUEST*",
+      "type": "text",
+      "required": true
+    },
+    {
+      "label": "EMAIL*",
+      "type": "email",
+      "required": true
+    },
+    {
+      "label": "NUMBER*",
+      "type": "tel",
+      "required": true
+    },
+    {
+      "label": "DD/MM/YY",
+      "type": "date",
+      "required": false
+    },
+    {
+      "label": "GUESTS",
+      "type": "number",
+      "required": false
+    },
+    {
+      "label": "YOUR MESSAGE",
+      "type": "textarea",
+      "required": false
+    }
+  ],
+  "submit_button": "SEND INQUIRES"
+}
