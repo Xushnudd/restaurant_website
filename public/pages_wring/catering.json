@@ -22,6 +22,64 @@
                 ]
             },
             "button": "$13 PER PERSON"
+        },
+        {
+            "card": {
+                "title": "Silver Package",
+                "info": [
+                    "3 Appetizers",
+                    "2 Vegetarian + 1 Non – Veg",
+                    "2 Veg Entrée",
+                    "1 Non-Veg Entrée",
+                    "Rice",
+                    "Naan",
+                    "1 Dessert",
+                    "Min.50 people",
+                    "All pricing subject",
+                    "to change"
+                ]
+            },
+            "button": "$20 PER PERSON"
+        },
+        {
+            "card": {
+                "title": "Gold Package",
+                "info": [
+                    "4 Appetizers",
+                    "2 Vegetarian + 2 Non – Veg",
+                    "2 Veg Entrée",
+                    "2 Non-Veg Entrée",
+                    "Pulao / Biryani",
+                    "Assorted Bread",
+                    "1 Dessert",
+                    "Min.50 people",
+                    "All pricing subject",
+                    "to change"
+                ]
+            },
+            "button": "$50 PER PERSON"
+        },
+        {
+            "card": {
+                "title": "Platinum Package",
+                "info": [
+                    "5 Appetizers",
+                    "3 Vegetarian + 2 Non – Veg",
+                    "3 Veg Entrée",
+                    "2 Non-Veg Entrée",
+                    "Pulao / Biryani",
+                    "Assorted Bread",
+                    "2 Dessert",
+                    "Min.50 people",
+                    "All pricing subject",
+                    "to change"
+                ]
+            },
+            "button": "$40 PER PERSON"
         }
-    ]
+    ],
+    "wedding_packages": {
+        "title": "WEDDING PACKAGES",
+        "caption": "All items to be selected from our Banquet Menu"
+    }
 }
