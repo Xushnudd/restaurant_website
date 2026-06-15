@@ -1,0 +1,11 @@
+{
+    "banner": "menu",
+    "button": "click here to download menu",
+    "notice": {
+        "title": "Food allergy notice:",
+        "caption": [
+            "Food prepared in this establishment may contain wheat,dairy, and cashew nuts.",
+            "Please tell your server if you have allergy because we are not responsible for any errors and cross contamination"
+        ]
+    }
+}
