@@ -25,7 +25,7 @@ export default function Home() {
     }, []);
     if (data === null) return "Serverga ulanmadi..."
     return (
-        <div>
+        <div className="min-w-300">
             <Header page={1} />
             <Banner datas={data.banner} />
             <Stories datas={data.stories} />

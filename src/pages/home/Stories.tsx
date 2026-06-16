@@ -17,7 +17,7 @@ export default function Stories({ datas }: StoriesProps) {
                     <div>
                         <div className="flex flex-col gap-10">
                             <h2 className="text-6xl text-red-600 font-bold uppercase">{datas.title}</h2>
-                            <p className="text-5xl">{datas.text}</p>
+                            <p className="text-4xl">{datas.text}</p>
                         </div>
                     </div>
                 </div>
