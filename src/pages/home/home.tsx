@@ -3,7 +3,6 @@ import { getData } from "../../utils/utils";
 import Header from "../../components/Header";
 import Banner from "./Banner";
 import Stories from "./Stories";
-import Footer from "../../components/Footer";
 
 export default function Home() {
     const [data, setData] = useState<any>(null);
