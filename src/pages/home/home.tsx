@@ -1,13 +1,11 @@
 import { useEffect, useState } from "react"
 import { getData } from "../../utils/utils";
-import Header from "../../components/Header";
 import Banner from "./Banner";
 import Stories from "./Stories";
 import Packages from "./Packages";
 import Menu from "./Menu";
 import ShaneResturend from "./ShaneResturend";
 import Location from "./Location";
-import Footer from "../../components/Footer";
 
 let imgs: any = [];
 
@@ -28,7 +26,6 @@ export default function Home() {
     if (data === null) return "Serverga ulanmadi..."
     return (
         <div className="min-w-300">
-            <Header page={1} />
             <Banner datas={data.banner} />
             <Stories datas={data.stories} />
             <Packages datas={data.package} />
@@ -41,7 +38,6 @@ export default function Home() {
             </div>
             <img src="/pages_img/home_page/find.png" alt="fint part" className="w-full" />
             <Location />
-            <Footer />
         </div>
     )
 }
