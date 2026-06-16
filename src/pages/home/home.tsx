@@ -7,6 +7,7 @@ import Packages from "./Packages";
 import Menu from "./Menu";
 import ShaneResturend from "./ShaneResturend";
 import Location from "./Location";
+import Footer from "../../components/Footer";
 
 let imgs: any = [];
 
@@ -40,6 +41,7 @@ export default function Home() {
             </div>
             <img src="/pages_img/home_page/find.png" alt="fint part" className="w-full" />
             <Location />
+            <Footer />
         </div>
     )
 }
