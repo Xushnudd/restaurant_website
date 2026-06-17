@@ -1,15 +1,13 @@
 import { Route, Routes } from "react-router-dom"
 import Home from "./pages/home/home"
-import MenuPage from "./pages/menu/MenuPage"
 
 const paths = [
-  "/",
-  "/menu"
+  "/"
+  
 ]
 
 const element = [
-  <Home />,
-  <MenuPage />
+  <Home />
 ]
 
 function App() {
