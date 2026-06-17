@@ -16,7 +16,7 @@ export default function Header() {
     if (data === null) return "Serverga ulanmadi...";
     return (
         <header className="w-full p-10 bg-black text-white text-lg flex justify-between items-center">
-            <img src="/pages_img/public/logo.png" alt="logo" className="w-[30%] cursor-pointer duration-750 hover:scale-95" />
+            <img src="/pages_img/public/logo.png" alt="logo" className="w-3/10" />
             <div className="w-max flex gap-10">
                 <nav className="w-max flex gap-3 items-center">
                     {data.header.links.map((el: string, i: number) => {
@@ -26,7 +26,7 @@ export default function Header() {
                         )
                     })}
                 </nav>
-                <button className="px-8 py-4 bg-red-500 cursor-pointer hover:bg-red-600">{data.header.button}</button>
+                <button className="px-8 py-4 bg-red-500 hover:bg-red-600">{data.header.button}</button>
             </div>
         </header>
     )
