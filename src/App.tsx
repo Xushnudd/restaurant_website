@@ -1,5 +1,8 @@
 import { Route, Routes } from "react-router-dom"
 import Home from "./pages/home/home"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
+import BanquetPage from "./pages/BanquetPage/BanquetPage"
 
 const paths = [
   "/",
