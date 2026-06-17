@@ -1,15 +1,18 @@
 import { Route, Routes } from "react-router-dom"
 import Home from "./pages/home/home"
-import MenuPage from "./pages/home/menu/MenuPage"
+import MenuPage from "./pages/menu/MenuPage"
+import Gallery from "./pages/Gallery/Gallery"
 
 const paths = [
   "/",
-  "/menu"
+  "/menu",
+  "/gallery"
 ]
 
 const element = [
   <Home />,
-  <MenuPage />
+  <MenuPage />,
+  <Gallery />
 ]
 
 function App() {
