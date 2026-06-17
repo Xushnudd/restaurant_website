@@ -3,15 +3,18 @@ import Home from "./pages/home/home"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import BanquetPage from "./pages/BanquetPage/BanquetPage"
+import MenuPage from "./pages/menu/MenuPage"
 
 const paths = [
   "/",
-  "/banquet"
+  "/banquet",
+  "/menu"
 ]
 
 const element = [
   <Home />,
   <BanquetPage />,
+  <MenuPage />
 ]
 
 function App() {
