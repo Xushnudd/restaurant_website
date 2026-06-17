@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Header from "../../components/Header";
 import { getData } from "../../utils/utils";
 
 
@@ -19,7 +18,7 @@ export default function MenuPage( ){
         
        
         <div>
-            <Header />            
+                
              <div className="relative">
                 
                 <img src="public/pages_img/menu_page/banner.png" alt="" />
