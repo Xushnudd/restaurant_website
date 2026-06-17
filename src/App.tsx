@@ -1,14 +1,14 @@
 import { Route, Routes } from "react-router-dom"
 import Home from "./pages/home/home"
-import Header from "./components/Header"
-import Footer from "./components/Footer"
 
 const paths = [
-  "/"
+  "/",
+  "/banquet"
 ]
 
 const element = [
-  <Home />
+  <Home />,
+  <BanquetPage />,
 ]
 
 function App() {
