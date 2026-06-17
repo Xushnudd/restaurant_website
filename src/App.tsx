@@ -1,28 +1,32 @@
 import { Route, Routes } from "react-router-dom"
 import Home from "./pages/home/home"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
+import BanquetPage from "./pages/BanquetPage/BanquetPage"
 import MenuPage from "./pages/menu/MenuPage"
-import Gallery from "./pages/Gallery/Gallery"
 
 const paths = [
   "/",
-  "/menu",
-  "/gallery"
+  "/banquet",
+  "/menu"
 ]
 
 const element = [
   <Home />,
-  <MenuPage />,
-  <Gallery />
+  <BanquetPage />,
+  <MenuPage />
 ]
 
 function App() {
   return (
     <div>
+      <Header />
       <Routes>
         {paths.map((el: string, i: number)=> (
           <Route path={el} element={element[i]} />
         ))}
       </Routes>
+      <Footer />
     </div>
   )
 }

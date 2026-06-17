@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react"
 import { getData } from "../../utils/utils";
-import Header from "../../components/Header";
 
 export default function Gallery (){
     const [data, setData] = useState<any>(null);
@@ -15,7 +14,7 @@ export default function Gallery (){
     if (data === null) return "Serverga ulanmadi...";
     return(
         <div>
-            <Header page={3} />
+            
             <div className="relative">
                 <div>
                     <img src="/pages_img/gallery/banner.png" alt="" />
