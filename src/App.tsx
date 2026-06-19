@@ -2,15 +2,18 @@ import { Route, Routes } from "react-router-dom"
 import Home from "./pages/home/home"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
+import MenuPage from "./pages/menu/MenuPage"
 import BanquetPage from "./pages/BanquetPage/BanquetPage"
 
 const paths = [
   "/",
+  "/menu",
   "/banquet"
 ]
 
 const element = [
   <Home />,
+  <MenuPage />,
   <BanquetPage />,
 ]
 
