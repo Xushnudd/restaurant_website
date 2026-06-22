@@ -8,7 +8,9 @@ import CateringPage from "./pages/Catering/CateringPage"
 
 const paths = [
   "/",
-  "/banquet"
+  "/menu",
+  "/banquet",
+  "/catering"
 ]
 
 const element = [

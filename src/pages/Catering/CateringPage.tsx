@@ -8,7 +8,7 @@ export default function CateringPage() {
             .then((info) => setData(info))
     }, [])
     if (data == null) return <div className="text-white">Yuklanmoqda...</div>
-    const heights = [ "width-20", "h-96", "h-120", "h-140", "h-80"]
+    const heights = [ "h-96", "h-120", "h-140", "h-80"]
     return (
         <div className="bg-black min-h-screen text-white"><img src="logo.png" alt="" />
             <img src="/pages_img/catering/banner.png" alt="Banner" className="w-full" />
