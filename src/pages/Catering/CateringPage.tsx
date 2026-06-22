@@ -8,7 +8,7 @@ export default function CateringPage() {
             .then((info) => setData(info))
     }, [])
     if (data == null) return <div className="text-white">Yuklanmoqda...</div>
-    const heights = ["h-96", "h-120", "h-140", "h-80"]
+    const heights = [ "width-20", "h-96", "h-120", "h-140", "h-80"]
     return (
         <div className="bg-black min-h-screen text-white"><img src="logo.png" alt="" />
             <img src="/pages_img/catering/banner.png" alt="Banner" className="w-full" />
@@ -37,8 +37,8 @@ export default function CateringPage() {
                     </div>
                     <div className="w-3/4 grid grid-cols-4 gap-4 pl-8">{data.weeding_packages.packages[activePackage].services?.map((svc: any, i: number) => (
                             <div key={i}>
-                                <h4 className="font-bold mb-6 text-white uppercase text-sm">{svc.title}</h4>
-                                <ul className="text-sm text-gray-300 space-y-3">{svc.list.map((item: string, j: number) => <li key={j}>{item}</li>)}</ul>
+                                <h4 className="font-bold mb-6 text-white uppercase">{svc.title}</h4>
+                                <ul className=" text-gray-300 space-y-3 mb-8">{svc.list.map((item: string, j: number) => <li key={j}>{item}</li>)}</ul>
                             </div>))}
                     </div>
                 </div>
