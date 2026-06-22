@@ -19,7 +19,7 @@ const element = [
 
 function App() {
   return (
-    <div>
+    <div className="min-w-300">
       <Header />
       <Routes>
         {paths.map((el: string, i: number)=> (
