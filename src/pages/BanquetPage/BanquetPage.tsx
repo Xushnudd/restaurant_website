@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import Header from "../../components/Header";
 import Button from "./Button";
 export default function BanquetPage() {
     const [data, setData] = useState<any>(null);
@@ -10,7 +9,6 @@ export default function BanquetPage() {
     if (data == null) return <div className="text-white">Yuklanmoqda...</div>;
     return (
         <div className="bg-black">
-            <Header page={3} />
             <div className="relative">
                 <img src="/pages_img/banquet_facelity/image.png" className="w-full"/>
                 <p className="text-5xl text-white absolute inset-0 flex items-center justify-center font-bold">{data.banner}</p>
@@ -32,3 +30,4 @@ export default function BanquetPage() {
             <button className="bg-red-500 w-15 h-10">3</button>
             </div>
         </div>)}
+        
