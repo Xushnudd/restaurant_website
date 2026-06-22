@@ -4,17 +4,20 @@ import Header from "./components/Header"
 import Footer from "./components/Footer"
 import BanquetPage from "./pages/BanquetPage/BanquetPage"
 import MenuPage from "./pages/menu/MenuPage"
+import Priya from "./components/Priya"
 
 const paths = [
   "/",
   "/banquet",
-  "/menu"
+  "/menu",
+  "/priya"
 ]
 
 const element = [
   <Home />,
   <BanquetPage />,
-  <MenuPage />
+  <MenuPage />,
+  <Priya />
 ]
 
 function App() {
