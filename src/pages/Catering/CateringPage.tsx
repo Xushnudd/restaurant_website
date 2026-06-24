@@ -1,14 +1,19 @@
 import { useState, useEffect } from 'react'
+
 export default function CateringPage() {
     const [data, setData] = useState<any>(null)
     const [activePackage, setActivePackage] = useState(0)
+    const [open, setOpen] = useState<Record<number, boolean>>({})
+
     useEffect(() => {
         fetch("/pages_writing/catering.json")
             .then((res) => res.json())
             .then((info) => setData(info))
     }, [])
+
     if (data == null) return <div className="text-white">Yuklanmoqda...</div>
     const heights = [ "h-96", "h-120", "h-140", "h-80"]
+    
     return (
         <div className="bg-black min-h-screen text-white"><img src="logo.png" alt="" />
             <img src="/pages_img/catering/banner.png" alt="Banner" className="w-full" />
@@ -48,20 +53,31 @@ export default function CateringPage() {
                 <button className="bg-red-600 py-2 px-4 ml-122 mb-18 w-60"></button>
                 <div className="overflow-x-auto bg-black/80 p-6">
                     <table className="w-full border-collapse text-sm text-white">
-                        <thead>
-                            <tr className="border-b border-gray-600">{data.trays.info[0].title.map((th: string, i: number) => <th key={i} className="p-4 text-left">{th}</th>)}</tr>
-                        </thead>
+                        <thead><tr className="border-b border-gray-600">{data.trays.info[0].title.map((th: string, i: number) => <th key={i} className="p-4 text-left">{th}</th>)}</tr></thead>
                         <tbody>{data.trays.info[0].packages.map((row: any, i: number) => (
-                                <tr key={i} className="border-b border-gray-800 hover:bg-gray-900">
-                                    <td className="p-4">{row.tray_size}</td>
-                                    <td className="p-4">{row.veg}</td>
-                                    <td className="p-4">{row.non_veg}</td>
-                                    <td className="p-4">{row.seafood}</td>
-                                    <td className="p-4">{row.bread}</td>
-                                    <td className="p-4">{row.rice}</td>
-                                </tr>))}
-                        </tbody>
+                            <tr key={i} className="border-b border-gray-800 hover:bg-gray-900">
+                                <td className="p-4">{row.tray_size}</td><td className="p-4">{row.veg}</td><td className="p-4">{row.non_veg}</td><td className="p-4">{row.seafood}</td><td className="p-4">{row.bread}</td><td className="p-4">{row.rice}</td>
+                            </tr>))}</tbody>
                     </table>
                 </div>
             </div>
-        </div>)}
+            {/* Siz so'ragan Accordion qismi */}
+           <div className="p-10 bg-white">
+                {data.appertizers.menu_sections.map((item: string, i: number) => (
+                    <div 
+                        key={i} 
+                        className={`mb-2 bg-pink-200 text-black transition-all duration-300 ${open[i] ? 'h-40' : 'h-16'}`}
+                    >
+                        <div 
+                            className="flex justify-between p-4 cursor-pointer font-bold" 
+                            onClick={() => setOpen({...open, [i]: !open[i]})}
+                        >
+                            <span>{item}</span>
+                            <span>{open[i] ? '-' : '+'}</span>
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </div>
+    )
+}
