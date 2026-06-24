@@ -1,19 +1,15 @@
 import { useState, useEffect } from 'react'
-
 export default function CateringPage() {
     const [data, setData] = useState<any>(null)
     const [activePackage, setActivePackage] = useState(0)
     const [open, setOpen] = useState<Record<number, boolean>>({})
-
     useEffect(() => {
         fetch("/pages_writing/catering.json")
             .then((res) => res.json())
             .then((info) => setData(info))
     }, [])
-
     if (data == null) return <div className="text-white">Yuklanmoqda...</div>
     const heights = [ "h-96", "h-120", "h-140", "h-80"]
-    
     return (
         <div className="bg-black min-h-screen text-white"><img src="logo.png" alt="" />
             <img src="/pages_img/catering/banner.png" alt="Banner" className="w-full" />
@@ -61,23 +57,14 @@ export default function CateringPage() {
                     </table>
                 </div>
             </div>
-            {/* Siz so'ragan Accordion qismi */}
            <div className="p-10 bg-white">
                 {data.appertizers.menu_sections.map((item: string, i: number) => (
-                    <div 
-                        key={i} 
-                        className={`mb-2 bg-pink-200 text-black transition-all duration-300 ${open[i] ? 'h-40' : 'h-16'}`}
-                    >
-                        <div 
-                            className="flex justify-between p-4 cursor-pointer font-bold" 
-                            onClick={() => setOpen({...open, [i]: !open[i]})}
-                        >
+                    <div key={i} className={`mb-2 bg-pink-200 text-black transition-all duration-300 ${open[i] ? 'h-40' : 'h-16'}`}>
+                        <div className="flex justify-between p-4 cursor-pointer font-bold" onClick={() => setOpen({...open, [i]: !open[i]})}>
                             <span>{item}</span>
                             <span>{open[i] ? '-' : '+'}</span>
                         </div>
                     </div>
                 ))}
             </div>
-        </div>
-    )
-}
+        </div>)}
