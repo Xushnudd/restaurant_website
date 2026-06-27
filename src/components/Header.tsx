@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { getData } from "../utils/utils";
 
 export default function Header() {
@@ -16,13 +17,13 @@ export default function Header() {
     if (data === null) return "Serverga ulanmadi...";
     return (
         <header className="w-full p-10 bg-black text-white text-lg flex justify-between items-center">
-            <img src="/pages_img/public/logo.png" alt="logo" className="w-3/10" />
+            <img src="/pages_img/public/logo.png" alt="logo" className="w-[30%] duration-700 hover:scale-95" />
             <div className="w-max flex gap-10">
                 <nav className="w-max flex gap-3 items-center">
-                    {data.header.links.map((el: string, i: number) => {
+                    {data.header.links.map((el: any, i: number) => {
                         const isActive = location.pathname === "/" && i === 0;
                         return (
-                            <span key={i} className={`${isActive ? "text-amber-600" : "text-white"} cursor-pointer hover:text-amber-500`}>{el}</span>
+                            <Link to={el.link} key={i} className={`${isActive ? "text-amber-600" : "text-white"} cursor-pointer hover:text-amber-500`}>{el.name}</Link>
                         )
                     })}
                 </nav>

@@ -2,27 +2,27 @@ import { Route, Routes } from "react-router-dom"
 import Home from "./pages/home/home"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
-import BanquetPage from "./pages/BanquetPage/BanquetPage"
 import MenuPage from "./pages/menu/MenuPage"
+import BanquetPage from "./pages/BanquetPage/BanquetPage"
 import Gallery from "./pages/Gallery/Gallery"
 
 const paths = [
   "/",
-  "/banquet",
   "/menu",
+  "/banquet",
   "/gallery"
 ]
 
 const element = [
   <Home />,
-  <BanquetPage />,
   <MenuPage />,
+  <BanquetPage />,
   <Gallery />
 ]
 
 function App() {
   return (
-    <div>
+    <div className="min-w-300">
       <Header />
       <Routes>
         {paths.map((el: string, i: number)=> (

@@ -1,12 +1,30 @@
 {
     "header": {
         "links": [
-            "Home",
-            "Menu",
-            "Banquet Facelity",
-            "Gallery",
-            "Catering",
-            "contact us"
+            {
+                "name": "Home",
+                "link": "/"
+            },
+            {
+                "name": "Menu",
+                "link": "/menu"
+            },
+            {
+                "name": "Banquet Facility",
+                "link": "/banquet"
+            },
+            {
+                "name": "Gallery",
+                "link": "/gallery"
+            },
+            {
+                "name": "Catering",
+                "link": "/catering"
+            },
+            {
+                "name": "Contact Us",
+                "link": "/contact-us"
+            }
         ],
         "button": "Book a Banquet"
     },
@@ -18,10 +36,22 @@
         "input": {
             "title": "have a message?",
             "message": [
-                "Name",
-                "email",
-                "number",
-                "your message"
+                {
+                    "placeholder": "Name",
+                    "data_type": "text"
+                },
+                {
+                    "placeholder": "email",
+                    "data_type": "email"
+                },
+                {
+                    "placeholder": "number",
+                    "data_type": "number"
+                },
+                {
+                    "placeholder": "your message",
+                    "data_type": "text"
+                }
             ],
             "button": "Send inquires"
         },
@@ -41,13 +71,34 @@
             {
                 "title": "Quick lines",
                 "text": [
-                    "Home",
-                    "Menu",
-                    "Banquet Facelity",
-                    "Gallery",
-                    "Catering",
-                    "Events",
-                    "contact us"
+                    {
+                        "name": "Home",
+                        "link": "/"
+                    },
+                    {
+                        "name": "Menu",
+                        "link": "/menu"
+                    },
+                    {
+                        "name": "Banquet Facility",
+                        "link": "/banquet-facility"
+                    },
+                    {
+                        "name": "Gallery",
+                        "link": "/gallery"
+                    },
+                    {
+                        "name": "Catering",
+                        "link": "/catering"
+                    },
+                    {
+                        "name": "Events",
+                        "link": "/events"
+                    },
+                    {
+                        "name": "Contact Us",
+                        "link": "/contact-us"
+                    }
                 ]
             },
             {
