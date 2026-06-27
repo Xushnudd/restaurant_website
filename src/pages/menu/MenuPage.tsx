@@ -13,8 +13,6 @@ export default function MenuPage() {
     }, [])
     if (data === null) return "Serverga ulanmadi..."
     return (
-
-
         <div>
             <div className="relative">
                 <img src="/pages_img/menu_page/banner.png" alt="" />
