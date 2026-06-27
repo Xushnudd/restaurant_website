@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { getData } from "../../utils/utils";
 
-
 export default function MenuPage() {
     const [data, setData] = useState<any>(null)
 
