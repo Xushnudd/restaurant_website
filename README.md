@@ -1,73 +1,61 @@
-# React + TypeScript + Vite
+# 🍽️ Restaurant Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and minimalist restaurant website developed collaboratively based on a design from the Figma Community. The project follows a **Component-Based Architecture** approach and uses a **JSON-driven content structure** for managing menu items and website content dynamically.
 
-Currently, two official plugins are available:
+## 🔗 Links
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Figma Design:** [Figma Community Design](https://www.figma.com/design/SxWpR33vr0GNMEJxmNmVbH/resturant-website-design--Community-?node-id=0-1&p=f&t=MaXqWicZ4uMJfJty-0)
+* **GitHub Repository:** [restaurant_website](https://github.com/Xushnudd/restaurant_website.git)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+* 🧱 **Component-Based Architecture:**
+  Built with clean and reusable components to create a scalable and maintainable user interface.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* 📊 **JSON-driven Content:**
+  Menu items, food lists, and main website content are stored in JSON format and dynamically rendered on the page.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+* 📩 **Contact Form:**
+  A modern and user-friendly UI form for customer messages, inquiries, and reservation requests.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🛠️ Technologies Used
+
+The project was built using modern frontend technologies and tools:
+
+* **Frontend:** HTML5, CSS3 / Tailwind CSS, TypeScript (or the framework you used, such as Next.js/React)
+* **Design & Prototype:** Figma
+* **Version Control:** Git & GitHub
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally, follow these steps:
+
+### 1. Clone the repository:
+
+```bash
+git clone https://github.com/Xushnudd/restaurant_website.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 2. Navigate to the project directory:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```bash
+cd restaurant_website
+```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 3. Install required dependencies (if a framework is used):
+
+```bash
+npm install
+```
+
+### 4. Run the project on a local development server:
+
+```bash
+npm run dev
 ```
