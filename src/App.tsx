@@ -4,12 +4,14 @@ import Header from "./components/Header"
 import Footer from "./components/Footer"
 import MenuPage from "./pages/menu/MenuPage"
 import BanquetPage from "./pages/BanquetPage/BanquetPage"
+import Gallery from "./pages/Gallery/Gallery"
 import CateringPage from "./pages/Catering/CateringPage"
 
 const paths = [
   "/",
   "/menu",
   "/banquet",
+  "/gallery",
   "/catering"
 ]
 
@@ -17,6 +19,7 @@ const element = [
   <Home />,
   <MenuPage />,
   <BanquetPage />,
+  <Gallery />,
   <CateringPage />
 ]
 

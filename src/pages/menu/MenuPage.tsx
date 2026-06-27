@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { getData } from "../../utils/utils";
-
+import Priya from "../../components/Priya";
 
 export default function MenuPage() {
     const [data, setData] = useState<any>(null)
@@ -14,8 +14,6 @@ export default function MenuPage() {
     }, [])
     if (data === null) return "Serverga ulanmadi..."
     return (
-
-
         <div>
             <div className="relative">
                 <img src="/pages_img/menu_page/banner.png" alt="" />
@@ -59,7 +57,8 @@ export default function MenuPage() {
                         ))}
                     </div>
                 </div>
-            </div>
-        </div>
+            </div >
+            <Priya />
+        </div >
     )
 }

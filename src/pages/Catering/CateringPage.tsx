@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import Priya from '../../components/Priya'
 export default function CateringPage() {
     const [data, setData] = useState<any>(null)
     const [activePackage, setActivePackage] = useState(0)
@@ -67,4 +68,5 @@ export default function CateringPage() {
                     </div>
                 ))}
             </div>
+            <Priya />
         </div>)}
