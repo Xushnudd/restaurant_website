@@ -5,7 +5,7 @@ import Stories from "./Stories";
 import Packages from "./Packages";
 import Menu from "./Menu";
 import ShaneResturend from "./ShaneResturend";
-import Location from "./Location";
+import Location from "../../components/Location";
 
 let imgs: any = [];
 
