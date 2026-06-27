@@ -1,50 +1,61 @@
 # 🍽️ Restaurant Website
 
-Figma hamjamiyatidan olingan zamonaviy va minimalistik dizayn asosida jamoaviy tarzda ishlab chiqilgan restoran veb-sayti. Loyihada komponentli arxitektura (Component-Based Architecture) hamda menyu va kontentlarni boshqarish uchun JSON-driven kontent strukturasi qo'llanilgan.
+A modern and minimalist restaurant website developed collaboratively based on a design from the Figma Community. The project follows a **Component-Based Architecture** approach and uses a **JSON-driven content structure** for managing menu items and website content dynamically.
 
-## 🔗 Havolalar (Links)
-* **Figma Dizayn:** [Figma Community Design](https://www.figma.com/design/SxWpR33vr0GNMEJxmNmVbH/resturant-website-design--Community-?node-id=0-1&p=f&t=MaXqWicZ4uMJfJty-0)
+## 🔗 Links
+
+* **Figma Design:** [Figma Community Design](https://www.figma.com/design/SxWpR33vr0GNMEJxmNmVbH/resturant-website-design--Community-?node-id=0-1&p=f&t=MaXqWicZ4uMJfJty-0)
 * **GitHub Repository:** [restaurant_website](https://github.com/Xushnudd/restaurant_website.git)
 
 ---
 
-## ✨ Xususiyatlari (Features)
-- 🧱 **Komponentli Arxitektura:** Qayta ishlatiladigan (reusable) toza komponentlar asosida qurilgan interfeys.
-- 📊 **JSON-driven Kontent:** Menyu, taomlar ro'yxati va asosiy matnlar JSON formatida saqlanadi va dinamik tarzda render qilinadi.
-- 📩 **Aloqa Formasi:** Mijozlar murojaatlari, xabarlar va band qilish (reservation) so'rovlari uchun chiroyli UI formasi.
+## ✨ Features
+
+* 🧱 **Component-Based Architecture:**
+  Built with clean and reusable components to create a scalable and maintainable user interface.
+
+* 📊 **JSON-driven Content:**
+  Menu items, food lists, and main website content are stored in JSON format and dynamically rendered on the page.
+
+* 📩 **Contact Form:**
+  A modern and user-friendly UI form for customer messages, inquiries, and reservation requests.
 
 ---
 
-## 🛠️ Texnologiyalar (Technologies Used)
-Loyiha zamonaviy frontend texnologiyalari va vositalari yordamida yaratilgan:
-* **Frontend:** HTML5, CSS3 / Tailwind CSS, TypeScript (yoki o'zingiz ishlatgan framework, masalan: Next.js/React)
-* **Dizayn va Prototip:** Figma
-* **Versiyalarni boshqarish:** Git & GitHub
+## 🛠️ Technologies Used
+
+The project was built using modern frontend technologies and tools:
+
+* **Frontend:** HTML5, CSS3 / Tailwind CSS, TypeScript (or the framework you used, such as Next.js/React)
+* **Design & Prototype:** Figma
+* **Version Control:** Git & GitHub
 
 ---
 
-## 🚀 Loyihani ishga tushirish (Getting Started)
+## 🚀 Getting Started
 
-Loyihani o'z kompyuteringizda ishga tushirish uchun quyidagi qadamlarni bajaring:
+To run this project locally, follow these steps:
 
-1. **Repozitoriyani klonlash:**
-  ```bash
-  git clone https://github.com/Xushnudd/restaurant_website.git
-  ```
+### 1. Clone the repository:
 
-2. **Loyiha papkasiga o'tish:**
-  ```bash
-  cd restaurant_website
-  ```
+```bash
+git clone https://github.com/Xushnudd/restaurant_website.git
+```
 
+### 2. Navigate to the project directory:
 
-3. **Zaruriy paketlarni o'rnatish (agar framework ishlatilgan bo'lsa):**
-  ```bash
-  npm install
-  ```
+```bash
+cd restaurant_website
+```
 
+### 3. Install required dependencies (if a framework is used):
 
-4. **Loyihani mahalliy serverda ishga tushirish:**
-  ```bash
-  npm run dev
-  ```
+```bash
+npm install
+```
+
+### 4. Run the project on a local development server:
+
+```bash
+npm run dev
+```
