@@ -12,7 +12,8 @@ const paths = [
   "/menu",
   "/banquet",
   "/gallery",
-  "/catering"
+  "/catering",
+  "/contact"
 ]
 
 const element = [

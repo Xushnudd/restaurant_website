@@ -7,6 +7,15 @@ export default function Header() {
     const [data, setData] = useState<any>(null);
     const location = useLocation();
 
+    const paths = [
+        "/",
+        "/menu",
+        "/banquet",
+        "/gallery",
+        "/catering",
+        "/contact-us"
+    ]
+
     useEffect(() => {
         async function loadData() {
             const req = await getData("/pages_writing/components.json");
@@ -21,7 +30,7 @@ export default function Header() {
             <div className="w-max flex gap-10">
                 <nav className="w-max flex gap-3 items-center">
                     {data.header.links.map((el: any, i: number) => {
-                        const isActive = location.pathname === "/" && i === 0;
+                        const isActive = location.pathname === paths[i];
                         return (
                             <Link to={el.link} key={i} className={`${isActive ? "text-amber-600" : "text-white"} cursor-pointer hover:text-amber-500`}>{el.name}</Link>
                         )
