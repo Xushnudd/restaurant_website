@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { getData } from "../../utils/utils";
+import Priya from "../../components/Priya";
 
 export default function MenuPage() {
     const [data, setData] = useState<any>(null)
@@ -57,6 +58,7 @@ export default function MenuPage() {
                     </div>
                 </div>
             </div >
+            <Priya />
         </div >
     )
 }
