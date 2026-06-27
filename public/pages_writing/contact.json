@@ -2,23 +2,36 @@
     "banner": "contact us",
     "contact": {
         "title": "Please contact the team with the enquiries you may have",
-        "contact_info": {
-            "mailing_address": "2215 US Highway 1 South North Brunswick, NJ 08902",
-            "phone": {
-                "P": "732.398.9022",
-                "M1": "917.518.4331",
-                "M2": "347.784.9269"
+        "contact_info": [
+            {
+                "title": "mailing_address",
+                "text": ["2215 US Highway 1 South North Brunswick, NJ 08902"]
             },
-            "fax": "732.658 3700",
-            "enquiries": "gurupalace@hotmail.com",
-            "banquet_catering_contact": {
-                "name": "Mr. Singh",
-                "phone_numbers": [
+            {
+                "title": "phone",
+                "text": [
+                    "732.398.9022",
+                    "917.518.4331",
+                    "347.784.9269"
+                ]
+            },
+            {
+                "title": "fax",
+                "text": ["732.658 3700"]
+            },
+            {
+                "title": "enquiries",
+                "text": ["gurupalace@hotmail.com"]
+            },
+            {
+                "title": " for banquet / catering contact:",
+                "text": [
+                    "Mr. Singh",
                     "917.518.4331",
                     "347.784.9269"
                 ]
             }
-        },
+        ],
         "contact_form": {
             "fields": [
                 {

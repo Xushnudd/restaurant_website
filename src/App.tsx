@@ -6,6 +6,7 @@ import MenuPage from "./pages/menu/MenuPage"
 import BanquetPage from "./pages/BanquetPage/BanquetPage"
 import Gallery from "./pages/Gallery/Gallery"
 import CateringPage from "./pages/Catering/CateringPage"
+import Contact from "./pages/Contact-us/Contact-us"
 
 const paths = [
   "/",
@@ -13,7 +14,7 @@ const paths = [
   "/banquet",
   "/gallery",
   "/catering",
-  "/contact"
+  "/contact-us"
 ]
 
 const element = [
@@ -21,7 +22,8 @@ const element = [
   <MenuPage />,
   <BanquetPage />,
   <Gallery />,
-  <CateringPage />
+  <CateringPage />,
+  <Contact />
 ]
 
 function App() {
