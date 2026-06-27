@@ -1,73 +1,50 @@
-# React + TypeScript + Vite
+# 🍽️ Restaurant Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Figma hamjamiyatidan olingan zamonaviy va minimalistik dizayn asosida jamoaviy tarzda ishlab chiqilgan restoran veb-sayti. Loyihada komponentli arxitektura (Component-Based Architecture) hamda menyu va kontentlarni boshqarish uchun JSON-driven kontent strukturasi qo'llanilgan.
 
-Currently, two official plugins are available:
+## 🔗 Havolalar (Links)
+* **Figma Dizayn:** [Figma Community Design](https://www.figma.com/design/SxWpR33vr0GNMEJxmNmVbH/resturant-website-design--Community-?node-id=0-1&p=f&t=MaXqWicZ4uMJfJty-0)
+* **GitHub Repository:** [restaurant_website](https://github.com/Xushnudd/restaurant_website.git)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Xususiyatlari (Features)
+- 🧱 **Komponentli Arxitektura:** Qayta ishlatiladigan (reusable) toza komponentlar asosida qurilgan interfeys.
+- 📊 **JSON-driven Kontent:** Menyu, taomlar ro'yxati va asosiy matnlar JSON formatida saqlanadi va dinamik tarzda render qilinadi.
+- 📩 **Aloqa Formasi:** Mijozlar murojaatlari, xabarlar va band qilish (reservation) so'rovlari uchun chiroyli UI formasi.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Texnologiyalar (Technologies Used)
+Loyiha zamonaviy frontend texnologiyalari va vositalari yordamida yaratilgan:
+* **Frontend:** HTML5, CSS3 / Tailwind CSS, TypeScript (yoki o'zingiz ishlatgan framework, masalan: Next.js/React)
+* **Dizayn va Prototip:** Figma
+* **Versiyalarni boshqarish:** Git & GitHub
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Loyihani ishga tushirish (Getting Started)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Loyihani o'z kompyuteringizda ishga tushirish uchun quyidagi qadamlarni bajaring:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1. **Repozitoriyani klonlash:**
+  ```bash
+  git clone https://github.com/Xushnudd/restaurant_website.git
+  ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. **Loyiha papkasiga o'tish:**
+  ```bash
+  cd restaurant_website
+  ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+3. **Zaruriy paketlarni o'rnatish (agar framework ishlatilgan bo'lsa):**
+  ```bash
+  npm install
+  ```
+
+
+4. **Loyihani mahalliy serverda ishga tushirish:**
+  ```bash
+  npm run dev
+  ```
