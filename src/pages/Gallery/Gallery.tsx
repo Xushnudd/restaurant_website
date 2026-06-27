@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { getData } from "../../utils/utils";
+import Priya from "../../components/Priya";
 
 export default function Gallery (){
     const [data, setData] = useState<any>(null);
@@ -26,6 +27,7 @@ export default function Gallery (){
             <div className="bg-black p-25">
                 <img src="/pages_img/gallery/image.png" alt="" />
             </div>
+            <Priya />
         </div>
     )
 }
